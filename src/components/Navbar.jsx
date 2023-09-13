@@ -6,8 +6,8 @@ import w from "../assets/heart.png"
 import a from "../assets/account.png"
 const Navbarcom = () => {
     return (
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div className="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+            <div className="container-fluid  px-md-10">
                 <a className="navbar-brand" href="/"> <img
                     src={logo}
                     alt=''
@@ -27,11 +27,12 @@ const Navbarcom = () => {
                         <li className="nav-item">
                             <a className="nav-link wfit" href="/">Get Quotes</a>
                         </li>
-                        <form class="d-flex container-fluid" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
+
                     </ul>
+                    <form class="d-flex container-fluid" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search on frikly" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
 
                     <div className='d-flex flex-row align-items-center  gap-4 justify-content-center'>
                         <div className='d-flex pointer-cursor flex-column align-items-center '>
